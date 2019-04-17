@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches')
+
+$azul: #215e9d
+$gris-oscuro: #222c3a
+$gris-claro: #aeaaae
+
+body
+  background-color: white
+  font-family: 'Staatliches', cursive
+  font-size: 16px
+
+.bordeInferior
+  border-bottom: 5px solid $azul
+
+// .categorias
+//   display: inline-block
+//   font-size: 1em !important
+//   border: 5px solid $azul
+//   padding: .5em
+//   transition: all .5s ease
+//   &:hover
+//     text-decoration: none
+//     text-shadow: none
+//     background-color: $azul
+//     color: white
+
+div img
+  width: 100%
+
+#footer
+  background: linear-gradient(to bottom right, $azul,#134170 25%,#0d2d4e)
+  padding: 1em 0
+  h5
+    color: white
+  ul
+    list-style: none
+    padding: 0
+
+  a, p
+    color: white
+
+.grillaDestacada
+  margin: 0
+  padding: 0
+
+.logo
+  width: 200px
+
+#header
+  background: $azul
+  padding: 1em 0
+  border-top: 5px solid #51e019
+  padding: 1em
+
+.indicadorCategorias
+  border-bottom: 5px solid $azul
+  padding: 0
+  h5
+    background: $azul
+    font-weight: 500
+    text-transform: uppercase
+    margin: 0
+    color: #fff
+    font-size: 1.5em
+    padding: 10px 30px 10px
+    display: inline-block
+.nav-link
+  color: white !important
+  &:hover
+    color: #51e019 !important
+
+.noticiaDestacada
+  background-position: center
+  background-size: cover
+  height: 100vh
+  position: relative
+  transition: all .5s ease
+  &:hover
+    opacity: .9
+
+
+  .titular
+    position: absolute
+    bottom: 0
+    left: 0
+    z-index: 1
+    color: white
+    padding: 1em
+    a
+      color: white
+      font-size: 1.5em
+      transition: all .5s ease
+      &:hover
+        text-shadow: 3px 4px #215e9d
+        text-decoration: none
+
+
+.noticiasdePortadas
+  margin: 2em auto
+
+  img
+    transition: all .5s ease
+    &:hover
+      opacity: .8
+
+  .titulos
+    border-bottom: 1px solid $gris-oscuro
+
+  a
+    color: $gris-oscuro
+    text-decoration: none
+    transition: all .5s ease
+    &:hover
+      opacity: .8
+      color: $azul
+
+
+.overlay
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  background: linear-gradient(to bottom, rgba(33,94,107,0), rgba(0,0,0,.8))
+
+
+.publicidad-horizontal-index
+  margin-bottom: 2em
+
+.sidebarIndex
+  margin-top: 2em
+
+#single
+
+  .titulo-single
+    margin: 2em 0
+
+    ul
+      font-size: 14px
+      color: $gris-claro
+      margin: 0
+      padding-left: 10px
+
+      li
+        display: inline-block
+
+  p
+    font-size: 1.2em
+    font-family: arial
+
+    a
+      color: $azul
+      font-weight: bold
+      &:hover
+        text-decoration: underline
+  h1
+    position: relative
+    color: $gris-oscuro

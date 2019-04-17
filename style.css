@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Staatliches");
+body {
+  background-color: white;
+  font-family: "Staatliches", cursive;
+  font-size: 16px; }
+
+.bordeInferior {
+  border-bottom: 5px solid #215e9d; }
+
+div img {
+  width: 100%; }
+
+#footer {
+  background: linear-gradient(to bottom right, #215e9d, #134170 25%, #0d2d4e);
+  padding: 1em 0; }
+  #footer h5 {
+    color: white; }
+  #footer ul {
+    list-style: none;
+    padding: 0; }
+  #footer a, #footer p {
+    color: white; }
+
+.grillaDestacada {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  width: 200px; }
+
+#header {
+  background: #215e9d;
+  padding: 1em 0;
+  border-top: 5px solid #51e019;
+  padding: 1em; }
+
+.indicadorCategorias {
+  border-bottom: 5px solid #215e9d;
+  padding: 0; }
+  .indicadorCategorias h5 {
+    background: #215e9d;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px 30px 10px;
+    display: inline-block; }
+
+.nav-link {
+  color: white !important; }
+  .nav-link:hover {
+    color: #51e019 !important; }
+
+.noticiaDestacada {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  transition: all 0.5s ease; }
+  .noticiaDestacada:hover {
+    opacity: 0.9; }
+  .noticiaDestacada .titular {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    padding: 1em; }
+    .noticiaDestacada .titular a {
+      color: white;
+      font-size: 1.5em;
+      transition: all 0.5s ease; }
+      .noticiaDestacada .titular a:hover {
+        text-shadow: 3px 4px #215e9d;
+        text-decoration: none; }
+
+.noticiasdePortadas {
+  margin: 2em auto; }
+  .noticiasdePortadas img {
+    transition: all 0.5s ease; }
+    .noticiasdePortadas img:hover {
+      opacity: 0.8; }
+  .noticiasdePortadas .titulos {
+    border-bottom: 1px solid #222c3a; }
+  .noticiasdePortadas a {
+    color: #222c3a;
+    text-decoration: none;
+    transition: all 0.5s ease; }
+    .noticiasdePortadas a:hover {
+      opacity: 0.8;
+      color: #215e9d; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(33, 94, 107, 0), rgba(0, 0, 0, 0.8)); }
+
+.publicidad-horizontal-index {
+  margin-bottom: 2em; }
+
+.sidebarIndex {
+  margin-top: 2em; }
+
+#single .titulo-single {
+  margin: 2em 0; }
+  #single .titulo-single ul {
+    font-size: 14px;
+    color: #aeaaae;
+    margin: 0;
+    padding-left: 10px; }
+    #single .titulo-single ul li {
+      display: inline-block; }
+#single p {
+  font-size: 1.2em;
+  font-family: arial; }
+  #single p a {
+    color: #215e9d;
+    font-weight: bold; }
+    #single p a:hover {
+      text-decoration: underline; }
+#single h1 {
+  position: relative;
+  color: #222c3a; }
+
+/*# sourceMappingURL=style.css.map */
